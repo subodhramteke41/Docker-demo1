@@ -16,5 +16,7 @@ COPY . .
 # Expose the port that the app runs on
 EXPOSE 5000
 
+ENV NAME World
+
 # Command to run the application
 CMD ["python", "app.py"]
